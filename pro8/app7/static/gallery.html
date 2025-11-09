@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Interactive Photo Gallery</h1>
+  <div class="gallery">
+    <div class="main-image">
+      <img id="displayed-image" src="lion.jpg" alt="Main Display" />
+    </div>
+    <div class="animals">
+      <img src="lion.png" onclick="changeImage(this)" alt="lion.png" />
+      <img src="tiger.png" onclick="changeImage(this)" alt="tiger.png" />
+      <img src="cat.png" onclick="changeImage(this)" alt="cat.png" />
+      <img src="dog.png" onclick="changeImage(this)" alt="dog.png" />
+      <img src="elephant.png" onclick="changeImage(this)" alt="elephant.png" />
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
